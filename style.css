@@ -1,0 +1,71 @@
+.content{
+    font-family:'Caveat', cursive;
+    font-size:19px;
+    margin:-70px 200px 80px;
+  }
+  /* img {  
+    position: relative;   
+    height: 400px;
+    margin:0 420px -230px;
+    display: block; 
+    z-index: 1;
+    opacity: 0.3; 
+    background-attachment: local;
+  } */
+  .imge{
+    width:700px;
+    height:500px;
+    background: url(https://kartinkin.net/uploads/posts/2022-03/1647102721_3-kartinkin-net-p-kartinki-dinozavrov-dlya-srisovki-3.jpg) no-repeat;
+    background-size:cover;
+    margin:0 370px -245px;
+    opacity: 0.5;
+    box-shadow: inset white 0px 0px 20px 20px;
+  }    
+  time {
+    font-weight: bold;
+  }
+  time:hover{
+    color: rgba(118,118,118,0);
+  }
+  time:hover::after{
+    content:"2015-05-23 19:00";
+    color: rgb(0,0,0,0.7);
+    margin-left:-66px; 
+  }
+  header{
+    font-size:30px;
+    letter-spacing: 13px;
+    word-spacing:-3px;
+    margin-bottom:14px;
+    font-weight:bold;
+    color: red;
+  }
+  .ss{
+    letter-spacing: 3px;
+    color: rgb(0,0,0,0.8);
+    font-size:1.2rem;
+  }
+  .head{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+  }
+  .end{
+    text-align: end;
+    margin-top:90px;
+  }
+  .opinion{
+    line-height:9px;
+    border:red 2px solid;
+    margin-bottom:40px;
+    padding-right:10px;
+    z-index: 2;
+    position: relative;   
+  }
+  footer { 
+    text-align:end; 
+  }
+  .ww {
+    padding-right:15px;
+    color:red;
+  }
